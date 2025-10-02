@@ -1,0 +1,17 @@
+.{
+    .name = .spng,
+    .version = "0.0.1",
+    .dependencies = .{
+        .libspng = .{
+            .url = "git+https://github.com/randy408/libspng.git?ref=v0.7.4#fb768002d4288590083a476af628e51c3f1d47cd",
+            .hash = "N-V-__8AAModCAATNPKPcCapFcZFQHw0a8VjUyjAokEkvmW7",
+        },
+        .zlib = .{
+            .url = "git+https://github.com/allyourcodebase/zlib#61e7df7e996ec5a5f13a653db3c419adb340d6ef",
+            .hash = "zlib-1.3.1-ZZQ7lbYMAAB1hTSOKSXAKAgHsfDcyWNH_37ojw5WSpgR",
+        },
+    },
+    .minimum_zig_version = "0.15.1",
+    .paths = .{""},
+    .fingerprint = 0x24970aec70ba5e4f,
+}
